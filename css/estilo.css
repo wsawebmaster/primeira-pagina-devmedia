@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+    color: #1d1d1d;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-weight: bold;
+    color: #1c81c0;
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+.header {
+    padding: 30px 0px;
+    background-color: #e8edf1;
+    /*word-spacing: 20px;*/
+}
+
+.header p {
+    margin: 10px auto;
+}
+
+.header a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #1d1d1d;
+    border-bottom: solid #1d1d1d 2px;
+    margin: 0px 10px;
+}
+
+.banner img {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.banner {
+    padding: 30px 0px;
+    margin-top: 50px;
+}
+
+#sobre span, #corretores span {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+#corretores a {
+    text-decoration: underline;
+}
+
+#sobre, #servicos, #corretores, #contato {
+    padding: 30px 0px;
+    height: 100vh;
+}
+
+p {
+    text-align: justify;
+    width: 80%;
+    margin: 10px auto;
+    font-size: 0.85rem;
+}
+
+.imagem {
+    height: 40%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.banner img:hover, .imagem:hover {
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    transform: scale(1.05);
+    transition: ease-in 0.7s;
+    cursor: pointer;
+}
+
+#servicos, #contato {
+    background-color: #1d80c1;
+    color: #e8edf1;
+}
+
+#servicos p {
+    font-size: 1rem;
+    line-height: 28px;
+    padding: 50px 0px;
+}
+
+#servicos span {
+    color: yellow;
+    font-weight: bold;
+}
+
+#servicos ul {
+    text-align: justify;
+    margin-left: 45%;
+    line-height: 23px;
+}
+
+#contato iframe {
+    padding: 20px;
+}
+
+#contato p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#contato span {
+    color: yellow;
+    font-weight: bold;
+}
+
+#contato li {
+    list-style-type : none;
+    line-height: 40px;
+}
+
+#contato a {
+    background-color: #e8edf1;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
